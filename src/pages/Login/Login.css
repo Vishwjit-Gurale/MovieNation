@@ -1,0 +1,128 @@
+.login-div {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #f7f7f7; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("login-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+}
+
+.section {
+  height: 480px;
+  width: 550px;
+  /* background: rosybrown; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://i0.wp.com/demishia.com/wp-content/uploads/2018/04/admin-login-background-images-8.jpg?ssl=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.right {
+  height: 450px;
+  width: 500px;
+  /* background: salmon; */
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 20px;
+}
+.right .para {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right .para h1 {
+  font-size: 33px;
+  font-weight: 550;
+}
+
+.right .para p {
+  font-size: 16px;
+}
+
+.right .input {
+  height: 300px;
+  /* background: cornflowerblue; */
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.right .input .btn-div {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right .input .btn {
+  width: 350px;
+}
+
+.right .input .btn-div span {
+  width: 80%;
+  /* background-color: burlywood; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.right .input .btn-div span a {
+  cursor: pointer;
+}
+
+.right .input .login-btn {
+  /* background: olivedrab; */
+  width: 80%;
+  gap: 50px;
+  display: flex;
+}
+
+.right .input .login-btn button {
+  height: 40px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn .btn-1.active,
+.login-btn .btn-2.active {
+  background-color: royalblue;
+  color: white;
+}
+
+.right .input .links {
+  height: 50px;
+  width: 65%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right .input .links a {
+  list-style: none;
+  padding: 5px;
+}
+
+@media (min-width: 100px) and (max-width: 550px) {
+  .right {
+    width: 400px;
+    align-items: center;
+    text-wrap: wrap;
+  }
+  .right .input .btn-div {
+    width: 350px;
+  }
+}
